@@ -1,0 +1,28 @@
+{
+  "name": "trusty-rusty-snippets",
+  "displayName": "Trusty Rusty Snippets",
+  "description": "Comprehensive snippets collection for the Rust programming language.",
+  "version": "0.0.1",
+  "publisher": "polypus74",
+  "license": "MIT, SEE LICENSE FILE",
+  "homepage": "https://github.com/polypus74/trusty_rusty_snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polypus74/trusty_rusty_snippets.git"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "rust",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}
