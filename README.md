@@ -11,6 +11,7 @@ Most rust keywords have simple two letter triggers, i.e. the first two letters o
 - im => `impl`
 - el => `else`
 - en => `enum`
+- fo => `for`
 - fn => `fn`
 - if => `if`
 - le => `let`

@@ -67,6 +67,10 @@
     "prefix": "ma",
     "body": ["match $1 {", "    $2 => $3,", "    $4 => $5,$6", "}"]
   },
+  "match expression": {
+    "prefix": "fo",
+    "body": ["for $1 in $2 {", "    $3", "}"]
+  },
   "type definition": {
     "prefix": "ty",
     "body": ["type $1 = $2;"]
