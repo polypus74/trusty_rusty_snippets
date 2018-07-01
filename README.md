@@ -61,7 +61,7 @@ There are also a few other helpers and odds and ends.
 - ass => `assert!(...)` (pardon my french)
 - asse => `assert_eq!(...)`
 - mr => `macro_rules!`
-- pdb => `println!("{:?}", ...)` (print debug)
+- pdb => `println!("... = {:?}", ...)` (print debug)
 - un => `unimplemented!() // TODO`
 - vec => `vec![...]`
 - test => `#[test]` with function def
