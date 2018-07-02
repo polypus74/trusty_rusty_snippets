@@ -72,4 +72,4 @@ There are also a few other helpers and odds and ends.
 
 Feedback and suggestions appreciated. Snippets you are missing? I missed a good tab stop? Something is terribly wrong? Or you'd just like to buy me a pizza?
 
-[Contact](mailto:polypus74@gmail.com) me or submit [pull requests](https://github.com/polypus74/trusty_rusty_snippets/pulls).
+Submit an [issue](https://github.com/polypus74/trusty_rusty_snippets/issues) or a [pull request](https://github.com/polypus74/trusty_rusty_snippets/pulls).
