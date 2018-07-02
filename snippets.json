@@ -169,9 +169,22 @@
     "prefix": "res",
     "body": ["$1Result<$2>"]
   },
-  "debug println": {
+  "impl From<...> for ...": {
+    "prefix": "from",
+    "body": [
+      "impl From<$1> for $2 {",
+      "    fn from(${3:val}: $1) -> Self {",
+      "        $4",
+      "    }\n}"
+    ]
+  },
+  "println debug": {
     "prefix": "pdb",
     "body": ["println!(\"$1 = {:?}\", $1);"]
+  },
+  "println": {
+    "prefix": "pln",
+    "body": ["println!($1);"]
   },
   "assert statement": {
     "prefix": "ass",
@@ -188,6 +201,10 @@
   "unimplemented macro call with TODO comment": {
     "prefix": "un",
     "body": ["unimplemented!() // TODO"]
+  },
+  "unreachable macro call": {
+    "prefix": "unr",
+    "body": ["unreachable!($1)"]
   },
   "macro rules": {
     "prefix": "mr",

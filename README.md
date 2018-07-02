@@ -4,9 +4,11 @@ A fairly comprehensive set of snippets for the [Rust](https://www.rust-lang.org/
 
 Simple short and effective trigger strings. Attention was paid to putting tab stops in all the right places. For example, fn, struct, and enum snippets have the first tab stop before the keyword just in case you might want to add `pub` (i often forget).
 
-## Features
+Great care was also taken to ensure that trigger strings do not clash with each other, as to avoid having to choose snippets from a drop down list.
 
-Most rust keywords have simple two letter triggers, i.e. the first two letters of the keyword itself, making them dead easy to recall. (Of course these expand to more than just the keyword).
+## Snippets
+
+Most rust keywords have simple two letter triggers, i.e. the first two letters of the keyword itself, making them dead easy to recall. Of course these expand to more than just the keyword.
 
 - im => `impl`
 - el => `else`
@@ -50,6 +52,7 @@ There are also a few other helpers and odds and ends.
 - eca => `extern crate as`
 - opt => `Option<...>`
 - res => `Result<...>`
+- from => `impl From<...> for ...`
 - | => multiline lambda
 - main => `main` function def
 - new => `new` constructor def
@@ -61,12 +64,22 @@ There are also a few other helpers and odds and ends.
 - ass => `assert!(...)` (pardon my french)
 - asse => `assert_eq!(...)`
 - mr => `macro_rules!`
-- pdb => `println!("... = {:?}", ...)` (print debug)
+- pdb => `println!("... = {:?}", ...);` (print debug)
+- pln => `println!(...);`
 - un => `unimplemented!() // TODO`
+- unr => `unreachable!(...)`
 - vec => `vec![...]`
 - test => `#[test]` with function def
 - testm => `#[cfg(test)]` with module def
 - todo => `// TODO: ...`
+
+## Trigger String Choices
+
+Some people find the shortness of these to be offputting, but there is rhyme & reason to these choices.
+
+Aside from avoiding clashing with each other as well as snippets provided by, for example, the RLS extension, they had to be uniform, easy to remember, and preferably require little typing. With these constraints in mind I tried different combinations, with different length strings, and came up with these as best fitting.
+
+If you do find them a bit cryptic for your taste, I recommend giving them a go before dismissing them offhand, however once the snippets stabilize and version 1.0 is released, I plan on releasing a more verbose version as well.
 
 ## Feedback
 
