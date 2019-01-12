@@ -244,7 +244,7 @@
   },
   "derive a few useful attributes": {
     "prefix": "drv*",
-    "body": ["#[derive(Copy, Clone, Debug, Default, PartialEq, Eq$1)]"]
+    "body": ["#[derive(${1:Copy, }${2:Clone, }${3:Debug, }${4:Default, }${5:PartialEq, }${6:Eq}${7:, }$8)]"]
   },
   "TODO comment": {
     "prefix": "todo",
