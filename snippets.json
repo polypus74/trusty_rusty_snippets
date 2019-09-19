@@ -149,6 +149,10 @@
     "prefix": "fn",
     "body": ["$1fn ${2:f}($3) $4{", "    $5", "}"]
   },
+  "function with return definition": {
+    "prefix": "fnr",
+    "body": ["$1fn ${2:f}($3) $4 -> $5 {", "    $6", "}"]
+  },
   "multiline lambda": {
     "prefix": "|",
     "body": ["${1:move }|$2| {", "    $3", "}"]
