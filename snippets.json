@@ -59,6 +59,10 @@
     "prefix": "ifl",
     "body": ["if let $1 = $2 {", "    $3", "}"]
   },
+  "if let else expression": {
+    "prefix": "ifle",
+    "body": ["if let $1 = $2 {", "    $3", "} else {", "    $4", "}"]
+  },
   "else clause": {
     "prefix": "el",
     "body": ["else {", "    $1", "}"]
